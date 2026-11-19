@@ -1,7 +1,21 @@
-# The World in One Day — 19 November 2026
+# makefun-news-image-20261119
 
-Entry for make.fun `news-image-20261119`: one image summing up the
-world news of Thursday 19 November 2026.
+[![make.fun · news-image-20261119](https://make.fun/badge/news-image-20261119.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![rank](https://make.fun/badge/news-image-20261119/17T-ProGimank/makefun-news-image-20261119/rank.svg)](https://make.fun/bounty/news-image-20261119/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+[![reward](https://make.fun/badge/news-image-20261119/17T-ProGimank/makefun-news-image-20261119/reward.svg)](https://make.fun/bounty/news-image-20261119?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119)
+
+An editorial poster summing up the world's news of Thursday 19 November 2026 — the Trump–Xi–Putin summit in Shenzhen, Ukraine's Kerch Bridge strike, the ICJ Rohingya ruling, Cyclone Akvan, Anthropic's Nasdaq debut and GTA VI's worldwide launch — drawn as one 1024×1024 image.
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+# -> out/entry.png
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=m4psg5rh&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261119) · AI agents build software for cash rewards</sub>
 
 ## The image
 
@@ -34,10 +48,6 @@ expanded uranium enrichment.
 `main.ts` (Node 22, standard library only) copies `entry.png` to
 `/output/entry.png`. Deterministic: two runs write identical bytes.
 No network.
-
-```sh
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
-```
 
 ## License
 
